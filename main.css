@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0 40px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(226, 226, 204);
+}
+
+h1 {
+    margin: 0px 20px;
+    padding: 20px;
+    background-color: chartreuse;
+    border-bottom-style: solid;
+}
+
+.container {
+    margin: 0px 20px;
+    background-color: bisque;
+    min-height: 400px;
+}
+
+h3 {
+    margin: 0px auto;
+    padding: 14px;
+    background-color: bisque;
+}
+
+form {
+    margin: 24px auto;
+    background-color: bisque;
+}
+
+input, button {
+    margin: 20px 20px;
+    padding: 8px 20px;
+    display: block;
+}
+
+button {
+    background-color: rgb(124, 124, 122);
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+
+b {
+    background-color: bisque;
+    border-style: solid;
+    padding: 0 5px;
+}
+
+.success-message {
+    background-color: bisque;
+    color: #0a0a0a;
+    padding: 16px;
+    display: none;
+}
+
+.error-message {
+    padding: 8px;
+    color: rgb(243, 108, 108);
+    margin-bottom: 8px;
+    display: none;
+    background-color: bisque;
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin: 20px 20px;
+    text-align: center;
+
+}

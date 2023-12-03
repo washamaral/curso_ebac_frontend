@@ -1,0 +1,36 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>  
+    <h1>Formulário de checagem de valores</h1>
+
+    <div class="container">
+
+        
+
+        <h3>Dados a serem inseridos:</h3>
+        <form id="check-form">
+            <input type="number" id="field-1" required placeholder="Campo a">
+            <input type="number" id="field-2" required placeholder="Campo b"> 
+            <p class="error-message">
+                Valor do campo b deve ser maior que valor do campo a.
+            </p>
+            <br>
+            <button type="submit">Checar</button>
+        </form>
+        <p class="success-message">
+
+        </p>
+    </div>
+    <footer>
+        <p>&copy; All rights reserved - PVW 2023</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
