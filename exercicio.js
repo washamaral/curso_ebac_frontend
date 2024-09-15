@@ -15,7 +15,7 @@ function passouNaMateria(student) {
     grades.forEach(function(item, index) {
         if (item >= 6) {
             congratulations = names[index]
-            console.log(`${alunos.nome[index]} passou na prova`)
+            console.log(`${congratulations} passou na prova`)
         }
     })
 }
